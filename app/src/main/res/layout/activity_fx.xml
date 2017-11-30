@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+
+              android:gravity="center"
+              android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:background="@color/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/refresh_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dip"
+            android:layout_centerInParent="true"
+            android:src="@drawable/waiting_norefresh"/>
+
+        <ProgressBar
+            android:id="@+id/refresh_progressbar"
+            android:layout_width="250dip"
+            android:layout_height="250dip"
+            android:layout_margin="30dip"
+            android:layout_centerInParent="true"
+            android:indeterminateDrawable="@drawable/waiting_progressbar"
+            android:indeterminateOnly="true"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateDuration="1000"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:background="@color/gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:gravity="center" >
+            <TextView
+                android:id="@+id/waiting_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6人"
+                android:textColor="@color/red"
+                android:textSize="70sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/waiting_num"
+                android:layout_below="@+id/waiting_num"
+                android:text="在前面排队"
+                android:textColor="@color/red"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/waiting_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6%"
+                android:textColor="@color/red"
+                android:textSize="70sp"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

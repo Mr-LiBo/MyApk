@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<result resultCode="0">
+<zoo>
+    <animalList>
+        <animal>
+            <id>1</id>
+            <gender>公</gender>
+            <name>老虎</name>
+            <level>1</level>
+            <recipes>
+                <recipe>
+                    <name>名称</name>
+                    <desic>描述</desic>
+                    <price>999</price>
+                </recipe>
+                <recipe>
+                    <name>肉</name>
+                    <desic>只吃肉</desic>
+                    <price>888</price>
+                </recipe>
+            </recipes>
+        </animal>
+        <animal>
+            <id>2</id>
+            <gender>母</gender>
+            <name>兔子</name>
+            <level>2</level>
+            <recipes>
+                <recipe>
+                    <name>名称</name>
+                    <desic>描述</desic>
+                    <price>980</price>
+                </recipe>
+                <recipe>
+                    <name>草</name>
+                    <desic>以吃草为生</desic>
+                    <price>66</price>
+                </recipe>
+            </recipes>
+        </animal>
+    </animalList>
+</zoo>
+</result>

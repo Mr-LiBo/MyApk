@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@drawable/select_setting_bg"
+              android:layout_width="match_parent"
+              android:layout_height="70dp">
+
+    <TextView
+        android:id="@+id/tv_setting_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="设置标题文本"
+        android:textSize="@dimen/sp18"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tv_setting_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_setting_title"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="3dp"
+        android:text="设置的描述文本"
+        android:textSize="@dimen/sp13"
+        android:textColor="@color/black"/>
+
+    <CheckBox
+        android:id="@+id/cb_setting_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:clickable="false"
+        android:focusable="false"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/listview_devider"/>
+</RelativeLayout>

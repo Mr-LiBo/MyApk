@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 白色 -->
+    <color name="white">#ffffff</color>
+    <color name="white_light">#FFFFFCEF</color>
+    <color name="gray">#ffe4e4e4</color>
+    <color name="dialog_gutton_disabled">#898c94</color>
+
+    <color name="orange_light">#AAFADCA7</color>
+    <color name="orange">#FADCA7</color>
+    <color name="yellow">#EEFF41</color>
+    <!-- 黑色 -->
+    <color name="black">#ff000000</color>
+    <color name="allA">#ffaaaaaa</color>
+    <color name="choose_eara_item_press_color">#f4f4f4</color>
+
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+
+    <color name="green_light">#5a9100</color>
+    <color name="red">#92001c</color>
+    <color name="gray_check_text">#b3b3b3</color>
+    <color name="red_deep_2">#dc0072</color>
+    <color name="sync_status_success">@color/green_light</color>
+    <color name="sync_status_fail">@color/red</color>
+    <color name="local_backup_color">#FE62A2</color>
+    <!-- <color name="local_restore_color">#01B8C0</color>-->
+    <color name="local_backup_btn_color">#5a5100</color>
+    <color name="pull_refresh_circle">#5e29ad</color>
+    <color name="local_restore">#A9FFF8</color>
+
+    <color name="focused_gray">#ededed</color>
+    <color name="background_gradient_start">#000000</color>
+    <color name="background_gradient_end">#DDDDDD</color>
+
+    <color name="search_opaque">#ffaa3f</color>
+    <color name="detail_background">#3399ff</color>
+    <color name="soft_opaque">#30000000</color>
+    <color name="img_soft_opaque">#30FF0000</color>
+    <color name="img_full_opaque">#00000000</color>
+    <color name="black_opaque">#AA000000</color>
+
+    <color name="default_background">#3d3d3d</color>
+
+    <color name="cx_black_text_color">#3d3d3d</color>
+    <color name="cx_name_text_color">#c8c8c8</color>
+
+    <color name="login_get_code_enable">#3b414d</color>
+    <color name="login_get_code_disenable">#fffaffca</color>
+    <color name="gray_listview">#A9FFF8</color>
+
+
+    <!--蓝-->
+    <color name="blue">#00bbff</color>
+
+    <!-- 主字体色-->
+    <color name="theme_tx_blue">#00bbff</color>
+    <color name="theme_tx_black">#333333</color>
+    <color name="theme_tx_white">#d0ecf7</color>
+    <color name="theme_tx_gray">#f1f1f1</color>
+    <color name="theme_tv_main_black">#000000</color>
+    <color name="theme_tv_secondary_black">#9a9a9a</color>
+    <color name="theme_tv_secondary_grey">#8b8b8c</color>
+    <color name="theme_rb_none_select">#7c7c7c</color>
+    <color name="thme_rl_bg">#efeff4</color>
+    <color name="theme_red_txt">#f42516</color>
+    <color name="internt_day_txt">#596778</color>
+    <color name="internt_left_txt">#34b1fb</color>
+    <color name="buy_txt">#434343</color>
+    <color name="theme_border">#e0e0e0</color>
+    <color name="theme_line">#e1e2e4</color>
+    <!--未用进度色-->
+    <color name="blue_water_bg">#bbf5fd</color>
+    <color name="blue_light_light">#0cd2f5</color>
+    <color name="blue_light">#01b5f5</color>
+    <color name="blue_light_water_bg">#25DCFA</color>
+    <color name="water_bt_round">#52dfef</color>
+
+
+    <!-- 紫 -->
+    <color name="purple">#eb00ff</color>
+
+
+    <color name="main_3_color">#323232</color>
+    <color name="nd_list_time_desc">#c8c8c8</color>
+
+    <!-- Grid 分割线 -->
+    <color name="grid_divider">#323232</color>
+    <color name="water_bg">#c8c8c8</color>
+    <color name="dialog_button_disabled">#c8c8c8</color>
+
+    <color name="blue_bg">#0099cc</color>
+
+    <color name="viewfinder_mask">#80000000</color>
+
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+    <color name="primary">#0aff8a</color>
+    <color name="province_line_border">#C7C7C7</color>
+
+
+    <color name="dark_24">#3d000000</color>
+    <color name="balck_upgrade">#333333</color>
+
+    <color name="go_order">#666666</color>
+    <color name="go_order_time">#8ec31f</color>
+
+</resources>

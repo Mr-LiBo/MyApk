@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/local_restore"
+              android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/adapter_tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="序号"
+            android:textSize="@dimen/sp20"
+            />
+
+        <TextView
+            android:id="@+id/adapter_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="名称"
+            android:textSize="@dimen/sp20"
+            />
+
+        <TextView
+            android:id="@+id/adapter_tv_desic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="价格"
+            android:textSize="@dimen/sp20"
+            />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="500dp"
+            android:background="@color/white"
+            >
+
+            <com.myApk.ui.view.refreshList.MyListViewDIY
+                android:id="@+id/myListView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/transparent"
+                android:divider="@null"
+                android:dividerHeight="0px"
+                android:fadingEdge="none"
+                android:fastScrollEnabled="false"
+                android:focusable="true"
+                android:headerDividersEnabled="false"
+                android:listSelector="#0000"
+                android:scrollingCache="false"/>
+
+            <LinearLayout
+                android:id="@+id/tv_switch_menu"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="40dp"
+                android:layout_marginRight="5dp"
+                >
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="80dp"
+                    android:background="@color/local_restore"
+                    android:gravity="center"
+                    android:text="点"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="gone">
+
+                <include
+                    android:id="@+id/include_menu"
+                    layout="@layout/menu_introduction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

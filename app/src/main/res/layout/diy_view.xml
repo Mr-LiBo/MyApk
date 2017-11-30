@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_diy_dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/local_restore"
+        >
+
+        <TextView
+            android:background="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="DIY Dialog"
+            android:textSize="@dimen/sp30"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_progress_dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/green_light"
+        >
+
+        <TextView
+            android:background="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Progress Dialog"
+            android:textSize="@dimen/sp30"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

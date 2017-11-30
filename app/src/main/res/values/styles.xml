@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="animProgressCircle" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@drawable/anim_refresing_circle</item>
+    </style>
+
+    <style name="customProgressBar" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@drawable/custom_progress_bar</item>
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="new_dialog_title">
+        <item name="android:textSize">@dimen/sp18</item>
+        <item name="android:textColor">#5e29ad</item>
+        <item name="android:fontFamily">Driod Sans</item>
+    </style>
+
+    <style name="dialog_button_style">
+        <item name="android:textSize">@dimen/sp16</item>
+        <item name="android:background">@drawable/selector_dialog_bottom_button</item>
+    </style>
+
+    <!-- 对话框 -->
+    <style name="dialog" mce_bogus="1" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+        <style name="editor_pay">
+            <item name="android:layout_width">fill_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:textColorHint">@drawable/cx_edit_hint_text_selector</item>
+            <item name="android:textColor">@color/cx_black_text_color</item>
+            <item name="android:background">@drawable/cx_edittext_selector</item>
+            <item name="android:textSize">@dimen/sp16</item>
+        </style>
+
+    <style name="photo_album_name_text">
+        <item name="android:textSize">@dimen/sp16</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@color/orange_light</item>
+
+    </style>
+
+    <style name="PopupWindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/popshow_anim</item>
+        <item name="android:windowExitAnimation">@anim/pophidden_anim</item>
+    </style>
+
+    <style name="popwin_anim_down_style">
+        <item name="android:windowEnterAnimation">@anim/popup_show_down</item>
+        <item name="android:windowExitAnimation">@anim/popup_hide_down</item>
+    </style>
+
+    <style name="main_tab_but_linear">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/line</item>
+    </style>
+
+    <style name="textsmall">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+</resources>

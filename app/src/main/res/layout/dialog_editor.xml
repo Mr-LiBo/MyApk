@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="271dp"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:background="@color/white"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="271dp"
+        android:layout_height="43dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/new_dialog_title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:singleLine="true"
+            android:text="详情"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/sp10"
+        android:layout_marginRight="@dimen/sp10"
+        android:background="@color/black">
+    </View>
+
+    <!--中间内容-->
+    <LinearLayout
+        android:id="@+id/layout_popup_media"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/sp10"
+        android:layout_marginRight="@dimen/sp10"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="名称："
+                android:layout_alignBottom   ="@+id/et_name"/>
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tv_name"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="价格："
+                android:layout_alignBottom="@+id/et_price"/>
+
+            <!-- android:editable="false" 不可编辑-->
+            <EditText
+                android:id="@+id/et_price"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tv_price"
+               />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/tv_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="描述："
+                 />
+
+            <EditText
+                android:id="@+id/et_desc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tv_desc"
+                android:text="zxczxczxczxczxczxczxcz"
+                android:textCursorDrawable="@null"
+               />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <!-- 底部按钮 -->
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/black">
+    </View>
+
+    <!--按钮-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:padding="2dp"
+        >
+
+        <TextView
+            android:id="@+id/btn_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_dialog_button"
+            android:gravity="center"
+            android:text="取消"
+            android:textSize="@dimen/sp18"/>
+        <!-- 分割线 -->
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/black">
+        </View>
+
+
+        <TextView
+            android:id="@+id/btn_ok"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_dialog_button"
+            android:gravity="center"
+            android:text="确认"
+            android:textSize="@dimen/sp18"/>
+    </LinearLayout>
+
+
+</LinearLayout>

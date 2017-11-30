@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+<!--android:background="@drawable/selector_search_bar_edit"
+ android:drawableLeft="@drawable/search_bar_icon_normal"-->
+    <com.myApk.ui.main.item3.sortListGrideViewItem.ClearEditText
+        android:id="@+id/cet_filter"
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+
+        android:hint="@string/plase_input_str"
+        android:singleLine="true"
+        android:textSize="@dimen/sp15"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/lv_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:divider="@null"
+            android:dividerHeight="0px"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="false"
+            android:focusable="true"
+            android:headerDividersEnabled="false"
+            android:listSelector="#0000"
+            android:scrollingCache="false"/>
+
+        <TextView
+            android:id="@+id/tv_dialog"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/show_head_toast_bg"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp30"
+            android:visibility="invisible"
+             />
+
+        <com.myApk.ui.main.item3.sortListGrideViewItem.SideBar
+            android:id="@+id/sidebar"
+            android:layout_width="34dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center"
+
+            />
+    </FrameLayout>
+</LinearLayout>

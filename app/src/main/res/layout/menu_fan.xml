@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/menu_fan"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true" >
+
+        <LinearLayout
+            android:id="@+id/menu_item01"
+            android:layout_width="60dp"
+            android:layout_height="81dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="164dp"
+            android:layout_marginLeft="28dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow"
+                android:duplicateParentState="true" />
+
+            <TextView
+                style="@style/photo_album_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="图片" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menu_item02"
+            android:layout_width="60dp"
+            android:layout_height="81dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="164dp"
+            android:layout_marginLeft="43dp"
+            android:layout_toRightOf="@id/menu_item01"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow"
+                android:duplicateParentState="true" />
+
+            <TextView
+                style="@style/photo_album_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="视频" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menu_item03"
+            android:layout_width="60dp"
+            android:layout_height="81dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="164dp"
+            android:layout_marginLeft="43dp"
+            android:layout_toRightOf="@id/menu_item02"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow"
+                android:duplicateParentState="true" />
+
+            <TextView
+                style="@style/photo_album_name_text"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="音乐" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menu_item04"
+            android:layout_width="60dp"
+            android:layout_height="81dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="80dp"
+            android:layout_marginLeft="79dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow"
+                android:duplicateParentState="true" />
+
+            <TextView
+                style="@style/photo_album_name_text"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="其他" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menu_item05"
+            android:layout_width="60dp"
+            android:layout_height="81dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="80dp"
+            android:layout_marginLeft="43dp"
+            android:layout_toRightOf="@id/menu_item04"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow"
+                android:duplicateParentState="true" />
+
+            <TextView
+                style="@style/photo_album_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="新建" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/menu_click"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="22dp"
+        android:layout_marginLeft="22dp" >
+
+        <ImageView
+            android:id="@+id/menu_btn_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/menu_ico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"/>
+    </RelativeLayout>
+
+</FrameLayout>

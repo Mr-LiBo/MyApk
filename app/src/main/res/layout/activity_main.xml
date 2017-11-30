@@ -1,0 +1,106 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/munu_fl_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/menu_ll"
+            android:background="@color/white"
+
+            ></FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/menu_ll"
+            android:background="@color/white"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:background="@color/theme_border"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/mdp1" />
+
+            <RadioGroup
+                android:id="@+id/menu_rg_navigate_bar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/munu_rb_home"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:padding="@dimen/mdp5"
+                    android:drawableTop="@drawable/selector_radio_btn_home"
+                    android:text="@string/home"
+                    android:textColor="@drawable/selector_radio_btn_colror"
+                    android:textSize="@dimen/msp10"
+
+                    />
+
+
+                <RadioButton
+                    android:id="@+id/munu_rb_internet"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    android:button="@null"
+                    android:drawableTop="@drawable/selector_radio_btn_internet"
+                    android:gravity="center"
+                    android:padding="@dimen/mdp5"
+                    android:text="@string/internet"
+                    android:textColor="@drawable/selector_radio_btn_colror"
+                    android:textSize="@dimen/msp10" />
+
+                <RadioButton
+                    android:id="@+id/munu_rb_mall"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    android:button="@null"
+                    android:drawableTop="@drawable/selector_radio_btn_mall"
+                    android:gravity="center"
+                    android:padding="@dimen/mdp5"
+                    android:text="@string/mall"
+                    android:textColor="@drawable/selector_radio_btn_colror"
+                    android:textSize="@dimen/msp10" />
+
+                <RadioButton
+                    android:id="@+id/munu_rb_my"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+
+                    android:button="@null"
+                    android:drawableTop="@drawable/selector_radio_btn_my"
+                    android:gravity="center"
+                    android:padding="@dimen/mdp5"
+                    android:text="@string/my"
+                    android:textColor="@drawable/selector_radio_btn_colror"
+                    android:textSize="@dimen/msp10" />
+            </RadioGroup>
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v4.widget.DrawerLayout>

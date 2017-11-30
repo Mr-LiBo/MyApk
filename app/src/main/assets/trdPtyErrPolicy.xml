@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<result resultCode="0">
+    <getTrdPtyErrPolicyRes>
+        <trdptyerrpolicylist>
+            <trdPtyErrPolicy>
+                <trdptytype>2</trdptytype>
+                <errpolicy>1</errpolicy>
+                <trdptyerrlist>
+                    <trdPtyErrCode>
+                        <errcode>101</errcode>
+                        <errdesc>手机号码格式不正确</errdesc>
+                    </trdPtyErrCode>
+                    <trdPtyErrCode>
+                        <errcode>102</errcode>
+                        <errdesc>手机号码号段不匹配</errdesc>
+                    </trdPtyErrCode>
+                </trdptyerrlist>
+            </trdPtyErrPolicy>
+            <trdPtyErrPolicy>
+                <trdptytype>2</trdptytype>
+                <errpolicy>1</errpolicy>
+                <trdptyerrlist>
+                    <trdPtyErrCode>
+                        <errcode>103</errcode>
+                        <errdesc>手机号码格式不正确123</errdesc>
+                    </trdPtyErrCode>
+                    <trdPtyErrCode>
+                        <errcode>104</errcode>
+                        <errdesc>手机号码号段不匹配456</errdesc>
+                    </trdPtyErrCode>
+                </trdptyerrlist>
+            </trdPtyErrPolicy>
+        </trdptyerrpolicylist>
+    </getTrdPtyErrPolicyRes>
+</result>

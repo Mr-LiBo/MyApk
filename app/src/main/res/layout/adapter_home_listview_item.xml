@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/rl_adapter_item"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/orange_light"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/adapter_tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="0"
+            android:textSize="@dimen/sp20"
+            />
+
+        <TextView
+            android:id="@+id/adapter_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="霸刀斩"
+            android:textSize="@dimen/sp20"
+            />
+
+        <TextView
+            android:id="@+id/adapter_tv_desic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="价格"
+            android:textSize="@dimen/sp20"
+            android:layout_marginRight="20dp"
+            />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignBottom="@+id/rl_adapter_item"
+        android:background="@color/local_restore"
+        />
+</RelativeLayout>

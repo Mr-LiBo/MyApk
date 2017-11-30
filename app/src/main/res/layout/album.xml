@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".TestActivity"
+                android:background="@color/allA"
+                android:gravity="center">
+<!--
+        <com.foods.chinamobile.mcloud.common.ui.view.AutoListView
+            android:background="@color/white"
+        android:id="@+id/lstv"
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+-->
+</RelativeLayout>

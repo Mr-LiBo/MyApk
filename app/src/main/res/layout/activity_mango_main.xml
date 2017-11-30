@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <!--tab-->
+    <RelativeLayout
+        android:id="@+id/rl_tab"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray">
+
+        <com.myApk.ui.view.SyncHorizontalScroll.SyncHorizontalScrollView
+            android:id="@+id/mhsv"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:fadingEdge="none"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:id="@+id/rl_nav"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:background="@color/yellow">
+
+                <RadioGroup
+                    android:id="@+id/rg_nav_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/sp38"
+                    android:layout_alignParentTop="true"
+                    android:background="@color/red"
+                    android:orientation="horizontal"/>
+
+                <ImageView
+                    android:id="@+id/iv_nav_indicator"
+                    android:layout_width="1dp"
+                    android:layout_height="5dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/green_light"
+                    android:contentDescription="@string/nav_desc"
+                    android:scaleType="matrix"/>
+             </RelativeLayout>
+        </com.myApk.ui.view.SyncHorizontalScroll.SyncHorizontalScrollView>
+
+        <!--左边-->
+        <ImageView
+            android:id="@+id/iv_nav_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/nav_desc"
+            android:paddingBottom="1dp"
+            android:src="@drawable/iv_navagation_scroll_left"
+            android:visibility="gone"/>
+        <!--右边-->
+        <ImageView
+            android:id="@+id/iv_nav_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/nav_desc"
+            android:paddingBottom="1dp"
+            android:src="@drawable/iv_navagation_scroll_right"
+            android:visibility="visible"/>
+    </RelativeLayout>
+
+    <!--底部activity-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/nav_viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/rl_tab"
+        android:layout_gravity="center"
+        android:background="@color/img_soft_opaque"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation"/>
+</RelativeLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:id="@+id/mainweixin"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/gray"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone"/>
+
+
+            <LinearLayout
+
+                android:id="@+id/mainbottom"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="horizontal">
+
+                <FrameLayout style="@style/main_tab_but_linear">
+
+                    <LinearLayout
+                        android:id="@+id/ll_tabhost_jy"
+                        style="@style/main_tab_but_linear"
+                        android:layout_marginTop="5dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/iv_jy"
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/home_tab_jouyi"/>
+
+                        <TextView
+                            android:id="@+id/tv_jy"
+                            style="@style/textsmall"
+                            android:layout_width="40dp"
+                            android:layout_height="match_parent"
+                            android:text="就医"/>
+
+
+                    </LinearLayout>
+                </FrameLayout>
+
+                <FrameLayout style="@style/main_tab_but_linear">
+
+                    <LinearLayout
+                        android:id="@+id/ll_tabhost_zx"
+                        style="@style/main_tab_but_linear"
+                        android:layout_marginTop="5dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/iv_zx"
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/home_tab_zixun"/>
+
+                        <TextView
+                            android:id="@+id/tv_zx"
+                            style="@style/textsmall"
+                            android:layout_width="40dp"
+                            android:layout_height="match_parent"
+                            android:text="咨询"/>
+
+
+                    </LinearLayout>
+                </FrameLayout>
+
+                <FrameLayout style="@style/main_tab_but_linear">
+
+                    <LinearLayout
+                        android:id="@+id/ll_tabhost_fx"
+                        style="@style/main_tab_but_linear"
+                        android:layout_marginTop="5dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/iv_fx"
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/home_tab_faxian"/>
+
+                        <TextView
+                            android:id="@+id/tv_fx"
+                            style="@style/textsmall"
+                            android:layout_width="40dp"
+                            android:layout_height="match_parent"
+                            android:text="发现"/>
+
+
+                    </LinearLayout>
+                </FrameLayout>
+
+
+                <FrameLayout style="@style/main_tab_but_linear">
+
+                    <LinearLayout
+                        android:id="@+id/ll_tabhost_my"
+                        style="@style/main_tab_but_linear"
+                        android:layout_marginTop="5dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/iv_my"
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/home_tab_myinfo"/>
+
+                        <TextView
+                            android:id="@+id/tv_my"
+                            style="@style/textsmall"
+                            android:layout_width="40dp"
+                            android:layout_height="match_parent"
+                            android:text="我的"/>
+
+
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </TabHost>
+
+</LinearLayout>

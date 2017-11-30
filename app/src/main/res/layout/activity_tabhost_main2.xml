@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainweixin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/gray"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+            </FrameLayout>
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/mainbottom"
+                android:layout_width="fill_parent"
+                android:layout_height="55dip"
+                android:background="#ffffff"
+                android:orientation="horizontal" >
+
+                <FrameLayout style="@style/main_tab_but_linear" >
+
+                    <LinearLayout
+                        android:id="@+id/channel1"
+                        style="@style/main_tab_but_linear"
+                        android:paddingTop="5dip" >
+
+                        <ImageView
+                            android:id="@+id/imageView1"
+                            android:layout_width="40dip"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/home_tab_jouyi" />
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            style="@style/textsmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="就医" />
+                    </LinearLayout>
+                </FrameLayout>
+
+                <FrameLayout style="@style/main_tab_but_linear" >
+
+                    <LinearLayout
+                        android:id="@+id/channel2"
+                        style="@style/main_tab_but_linear" >
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="40dip"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="5dip"
+                            android:src="@drawable/home_tab_zixun" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            style="@style/textsmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="咨询" />
+                    </LinearLayout>
+                </FrameLayout>
+
+                <FrameLayout style="@style/main_tab_but_linear" >
+
+                    <LinearLayout
+                        android:id="@+id/channel3"
+                        style="@style/main_tab_but_linear" >
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="40dip"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="5dip"
+                            android:src="@drawable/home_tab_faxian" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            style="@style/textsmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="发现" />
+                    </LinearLayout>
+                </FrameLayout>
+
+                <FrameLayout style="@style/main_tab_but_linear" >
+
+                    <LinearLayout
+                        android:id="@+id/channel4"
+                        style="@style/main_tab_but_linear" >
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="40dip"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="5dip"
+                            android:src="@drawable/home_tab_myinfo" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            style="@style/textsmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="我的" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </TabHost>
+
+</RelativeLayout>

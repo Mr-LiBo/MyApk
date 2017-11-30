@@ -1,0 +1,125 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="sp38">38.0dp</dimen>
+    <dimen name="sp30">30.0dp</dimen>
+    <dimen name="sp32">32.0dp</dimen>
+    <dimen name="sp28">28dp</dimen>
+    <dimen name="sp27">27.0dp</dimen>
+    <dimen name="sp26">26.0dp</dimen>
+    <dimen name="sp25">25.0dp</dimen>
+    <dimen name="sp24">24.0dp</dimen>
+    <dimen name="sp23">23.0dp</dimen>
+    <dimen name="sp22">22.0dp</dimen>
+    <dimen name="sp21">21.0dp</dimen>
+    <dimen name="sp20">20.0dp</dimen>
+    <dimen name="sp19">19.0dp</dimen>
+    <dimen name="sp18">18.0dp</dimen>
+    <dimen name="sp17">17.0dp</dimen>
+    <dimen name="sp16">16.0dp</dimen>
+    <dimen name="sp15">15.0dp</dimen>
+    <dimen name="sp14">14.0dp</dimen>
+    <dimen name="sp13">13.0dp</dimen>
+    <dimen name="sp12">12.0dp</dimen>
+    <dimen name="sp11">11.0dp</dimen>
+    <dimen name="sp10">10.0dp</dimen>
+    <dimen name="sp9">9.0dp</dimen>
+    <dimen name="sp8">8.0dp</dimen>
+    <dimen name="sp7">7.0dp</dimen>
+    <dimen name="sp6">6.0dp</dimen>
+    <dimen name="display_bytype_window_width">160dp</dimen>
+
+
+
+
+    <!-- 标题配置 -->
+    <dimen name="title_height">48dp</dimen>
+    <dimen name="title_width">60dp</dimen>
+    <dimen name="title_button_height">40dp</dimen>
+    <dimen name="title_rightButton_padding">8dp</dimen>
+    <dimen name="title_text_size">12sp</dimen>
+    <dimen name="padding_left">10dp</dimen>
+
+
+    <dimen name="dialog_width">280dp</dimen>
+
+
+    <!--环形字体尺寸-->
+    <dimen name="round_progress_text_size">15sp</dimen>
+    <!--环形边框宽度-->
+    <dimen name="round_progress_border_width">5dp</dimen>
+
+
+    <dimen name="msp10">10sp</dimen>
+    <dimen name="mdp5">5dp</dimen>
+    <dimen name="mdp200">200dp</dimen>
+    <dimen name="mdp27">27dp</dimen>
+    <dimen name="mdp206">206dp</dimen>
+    <dimen name="mdp36">36dp</dimen>
+    <dimen name="mdp28">28dp</dimen>
+    <dimen name="mdp74">74dp</dimen>
+    <dimen name="mdp80">80dp</dimen>
+    <dimen name="mdp26">26dp</dimen>
+    <dimen name="mdp16">16dp</dimen>
+    <dimen name="mdp12">12dp</dimen>
+    <dimen name="mdp14">14dp</dimen>
+    <dimen name="mdp8">8dp</dimen>
+    <dimen name="mdp50">50dp</dimen>
+    <dimen name="mdp20">20dp</dimen>
+    <dimen name="mdp25">25dp</dimen>
+    <dimen name="mdp18">18dp</dimen>
+    <dimen name="mdp7">7dp</dimen>
+    <dimen name="msp38">38dp</dimen>
+    <dimen name="mdp328">328dp</dimen>
+    <dimen name="mdp48">48dp</dimen>
+    <dimen name="mdp30">30dp</dimen>
+    <dimen name="msp39">39dp</dimen>
+    <dimen name="mdp10">10dp</dimen>
+    <dimen name="mdp2">2dp</dimen>
+    <dimen name="mdp194">194dp</dimen>
+    <dimen name="mdp55">56dp</dimen>
+    <dimen name="msp14">14sp</dimen>
+    <dimen name="mdp59">70dp</dimen>
+    <dimen name="mdp45">45dp</dimen>
+    <dimen name="mdp24">24dp</dimen>
+    <dimen name="mdp17">17dp</dimen>
+    <dimen name="mdp1">1dp</dimen>
+    <dimen name="mdp99">99dp</dimen>
+    <dimen name="mdp32">32dp</dimen>
+    <dimen name="msp19">19sp</dimen>
+    <dimen name="msp16">16sp</dimen>
+    <dimen name="mdp9">9dp</dimen>
+    <dimen name="mdp39">39dp</dimen>
+    <dimen name="mdp72">72dp</dimen>
+    <dimen name="mdp11">11dp</dimen>
+    <dimen name="m16sp">16sp</dimen>
+    <dimen name="divider_line_size">1px</dimen>
+    <dimen name="mdp42">42dp</dimen>
+    <dimen name="mdp110">110dp</dimen>
+
+    <dimen name="mdp326">326dp</dimen>
+    <dimen name="mdp92">92dp</dimen>
+    <dimen name="mdp40">40dp</dimen>
+    <dimen name="msp12">12sp</dimen>
+    <dimen name="mdp41">41dp</dimen>
+    <dimen name="mdp290">290dp</dimen>
+    <dimen name="mdp13">13dp</dimen>
+    <dimen name="mdp6">6dp</dimen>
+    <dimen name="msp62">62sp</dimen>
+    <dimen name="msp20">20sp</dimen>
+    <dimen name="mdp33">33dp</dimen>
+    <dimen name="mdp4">4dp</dimen>
+    <dimen name="msp24">24dp</dimen>
+    <dimen name="mdp62">62dp</dimen>
+    <dimen name="mdp60">60dp</dimen>
+    <dimen name="mdp160">160dp</dimen>
+    <dimen name="mdp70">70dp</dimen>
+    <dimen name="mdp44">44dp</dimen>
+    <dimen name="mdp240">240dp</dimen>
+    <dimen name="msp18">18sp</dimen>
+    <dimen name="mdp21">21dp</dimen>
+    <dimen name="mdp196">196dp</dimen>
+    <dimen name="mdp150">150dp</dimen>
+</resources>

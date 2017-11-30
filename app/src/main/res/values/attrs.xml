@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SettingItemView">
+        <attr name="tit" format="reference|string"/>
+        <attr name="contentOn" format="reference|string"/>
+        <attr name="contentOff" format="reference|string"/>
+        <attr name="check" format="boolean"/>
+    </declare-styleable>
+
+
+
+
+
+    <declare-styleable name="SlidingMenu">
+        <attr name="rightPadding" format="dimension" />
+    </declare-styleable>
+
+</resources>

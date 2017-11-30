@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/myApk/logic/peopleLogic/DOMPeopleParser.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/myApk/logic/peopleLogic/IPeopleParse.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/myApk/logic/peopleLogic/PullPeopleParser.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/myApk/logic/peopleLogic/SAXPeopleParser.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/myApk/model/People.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/myApk/ui/main/item1/NewsWebActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/myApk/ui/main/item3/PeopleParserActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/myApk/ui/main/item3/TestHttpActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/myApk/ui/view/gifView/GifDecoder.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/myApk/ui/view/gifView/GifFrame.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/myApk/ui/view/gifView/GifTestActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/myApk/ui/view/gifView/GifView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/myApk/uitl/FileUtil.java" charset="UTF-8" />
+  </component>
+</project>

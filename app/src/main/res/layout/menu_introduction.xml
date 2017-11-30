@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/menu_fan"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@color/orange_light"
+         >
+
+        <LinearLayout
+            android:id="@+id/menu_increase"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+            <TextView
+                style="@style/photo_album_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="增加"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menu_delete"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/menu_increase"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+            <TextView
+                style="@style/photo_album_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="删除"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menu_change"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/menu_delete"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+            <TextView
+                style="@style/photo_album_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="修改"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menu_search"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+            <TextView
+                style="@style/photo_album_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="查看"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menu_other"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_toRightOf="@id/menu_search"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+            <TextView
+                style="@style/photo_album_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="其它"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

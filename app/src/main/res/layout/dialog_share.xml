@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/dialog_title"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+       >
+
+        <TextView
+            android:gravity="center_vertical"
+            android:id="@+id/dialog_head_title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="分享"
+            android:textSize="@dimen/sp16"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#d8d8d8"
+        android:contentDescription="@null" >
+    </View>
+
+    <ListView
+        android:id="@+id/share_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:divider="@null"
+        android:scrollbars="none" />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<peoples>
+    <people>
+        <id>1</id>
+        <gender>男</gender>
+        <name>大傻子</name>
+        <level>1</level>
+        <recipes>
+            <recipe>
+                <name>名称</name>
+                <desic>描述</desic>
+                <price>价格</price>
+            </recipe>
+            <recipe>
+                <name>大炸虾</name>
+                <desic>龙虾为主辣椒为辅</desic>
+                <price>88</price>
+            </recipe>
+        </recipes>
+    </people>
+    <people>
+        <id>2</id>
+        <gender>女</gender>
+        <name>二傻子</name>
+        <level>2</level>
+        <recipes>
+            <recipe>
+                <name>水煮鱼</name>
+                <desic>鱼和豆芽加大火</desic>
+                <price>66</price>
+            </recipe>
+            <recipe>
+                <name>大炸虾</name>
+                <desic>龙虾为主辣椒为辅</desic>
+                <price>88</price>
+            </recipe>
+        </recipes>
+    </people>
+</peoples>
