@@ -23,6 +23,7 @@ import java.io.InputStream;
 import java.util.List;
 
 /**
+ * libo
  * 解析
  */
 public class PeopleParserActivity extends Activity implements View.OnClickListener
@@ -124,17 +125,19 @@ public class PeopleParserActivity extends Activity implements View.OnClickListen
                 break;
 
             case R.id.readandwrite:
+//                temp();
+
                 FileReader fr = null;
                 FileWriter fw = null;
                 String filePath = Environment.getExternalStorageDirectory().getPath();
                 try {
-                    fr = new FileReader(filePath+"/MyApk/people.xml");
-                    fw = new FileWriter(filePath+"/MyApk/temp.xml",false);
+                    fr = new FileReader(filePath+"/MyApk/123.jpg");
+                    fw = new FileWriter(filePath+"/MyApk/temp123.jpg",false);
                     char [] buf = new char[1024];
                     int len =0;
                     while((len = fr.read(buf)) != -1 )
                     {
-                        fw.write(buf,0,len);
+                                                  fw.write(buf,0,len);
                     }
 
                 } catch (Exception e) {
@@ -159,6 +162,43 @@ public class PeopleParserActivity extends Activity implements View.OnClickListen
                     }
                 }
                 break;
+        }
+    }
+
+    private void temp() {
+        FileReader fr = null;
+        FileWriter fw = null;
+        String filePath = Environment.getExternalStorageDirectory().getPath();
+        try {
+            fr = new FileReader(filePath+"/MyApk/people.xml");
+            fw = new FileWriter(filePath+"/MyApk/temp.xml",false);
+            char [] buf = new char[1024];
+            int len =0;
+            while((len = fr.read(buf)) != -1 )
+            {
+                fw.write(buf,0,len);
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }finally {
+            if (fr!= null)
+            {
+                try {
+                    fr.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            if (fw!= null)
+            {
+                try {
+                    fw.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
         }
     }
 
